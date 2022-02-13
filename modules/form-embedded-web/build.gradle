@@ -1,0 +1,4 @@
+configurations {
+	compileOnly.extendsFrom(liferayReleaseApi, jstl)
+	cssBuilder.extendsFrom(liferayCssBuilder)
+}

@@ -1,0 +1,12 @@
+$branding-medium: 'OpenSansMedium', sans-serif;
+$branding-bold: 'OpenSansBold', sans-serif;
+
+@font-face {
+  font-family: 'OpenSansMedium';
+  src:    url('/META-INF/resources/fonts/OpenSans-Medium.ttf') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'OpenSansBold';
+  src:    url('/META-INF/resources/fonts/OpenSans-Bold.ttf') format('embedded-opentype');
+}

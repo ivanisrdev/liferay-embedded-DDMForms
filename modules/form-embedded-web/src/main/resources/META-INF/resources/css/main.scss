@@ -1,0 +1,120 @@
+@import "varibles/variables_px";
+@import "varibles/variables_colors";
+@import "varibles/variables_fonts";
+
+.content-wrapper {
+  width: 100%;
+  padding-right: $px30;
+  padding-left: $px30;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bg-custom-gray {
+  background-color: $color-tertiary;
+}
+
+.mt-30 {
+  margin-top: $px30;
+}
+
+.mb-15 {
+  margin-bottom: $px15;
+}
+
+.mb-30 {
+  margin-bottom: $px30;
+}
+
+.mt-60 {
+  margin-top: $px60;
+}
+
+.mb-60 {
+  margin-bottom: $px60;
+}
+
+.p-30 {
+  padding: $px30;
+}
+
+.pl-30 {
+  padding-left: $px30;
+}
+
+.pr-30 {
+  padding-right: $px30;
+}
+
+.pb-60 {
+  padding-bottom: $px60;
+}
+
+.pt-60 {
+  padding-top: $px60;
+}
+
+.lexicon-icon-asterisk {
+  height: $px5;
+  margin-top: $px0;
+  vertical-align: middle;
+  width: $px5;
+  color: $color-text;
+  font-size: $px15;
+}
+
+.form-group label {
+  font-family: $branding-bold;
+  font-size: $px16;
+  margin-top: $px15;
+}
+
+.form-group input{
+  border-color: $color-tertiary;
+  background-color: $color-white;
+  border-radius: $px10;
+  padding: $px25;
+}
+
+.form-group {
+  margin-bottom: $px15;
+}
+
+.button-link-pink {
+  border: $px1 solid $color-white;
+  background-color: $color-primary;
+  border-radius: $px5;
+  padding: $px0 $px30;
+  color: $color-white;
+  min-width: $px200;
+  min-height: $px50;
+}
+
+.button-link-pink:hover {
+  background-color: $color-white;
+  border-color: $color-primary;
+  color: $color-primary;
+}
+
+.font-20 {
+  font-size: $px20;
+}
+
+.font-30 {
+  font-size: $px30;
+}
+
+.font-medium {
+  font-family: $branding-medium;
+}
+
+.font-bold {
+  font-family: $branding-bold;
+}
+
+.g-recaptcha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: $px30;
+}
